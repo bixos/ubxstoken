@@ -1,8 +1,19 @@
 {
-  "dependencies": {
-    "@openzeppelin/contracts": "^4.4.1"
+  "scripts": {
+    "start": "ganache",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "deploy": "truffle deploy",
+    "test": "truffle test",
+    "docs": "solidity-docgen --solc-module solc-0.8"
   },
+  "dependencies": {},
   "devDependencies": {
-    "@openzeppelin/test-helpers": "^0.5.15"
+    "@openzeppelin/contracts": "^4.4.1",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "ganache": "^7.0.3",
+    "solc-0.8": "npm:solc@0.8.11",
+    "solidity-docgen": "^0.5.16",
+    "truffle": "^5.5.3"
   }
 }

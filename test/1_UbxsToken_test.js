@@ -12,9 +12,9 @@ contract("UbxsToken", ([sender, receiver]) => {
   const value = new BN(1);
 
   // Hook that autoruns before each test function
-  beforeEach("should setup the contract instance", async function () {
+  beforeEach("should setup the contract instance", async () => {
     // Set the UBXS Token contract
-    return (ubxsToken = await UbxsToken.deployed());
+    ubxsToken = await UbxsToken.deployed();
   });
 
   it("the token name should be correct", async () => {

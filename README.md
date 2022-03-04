@@ -1,5 +1,14 @@
 # UBXS
 
+## Scripts
+
+```
+yarn compile
+yarn migrate
+yarn deploy
+yarn test
+yarn docs
+```
 
 
 ## Getting started
